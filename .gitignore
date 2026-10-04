@@ -21,3 +21,10 @@
 
 # Build files
 /build
+
+# Local credentials and runtime state for the TikTok monitor
+.env
+tools/tiktok_telegram_monitor/seen_videos.json
+tools/tiktok_telegram_monitor/.venv/
+__pycache__/
+*.py[cod]
